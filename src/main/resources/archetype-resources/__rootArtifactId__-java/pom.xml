@@ -13,13 +13,13 @@
 		<dependency>
 			<groupId>com.ibm.etools.mft.jcn</groupId>
 			<artifactId>javacompute</artifactId>
-			<version>7.0.200.v20101130_1524</version>
+			<version>9.0.200</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.ibm.etools.mft.jcn</groupId>
 			<artifactId>jplugin2</artifactId>
-			<version>7.0.0.v20091028_2100</version>
+			<version>9.0.200</version>
 			<scope>provided</scope>
 		</dependency>
   		<dependency>

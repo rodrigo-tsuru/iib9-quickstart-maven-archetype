@@ -1,0 +1,13 @@
+BROKER SCHEMA ${package}
+
+-- Put here your global-scoped variables
+
+-- User-Defined Properties
+DECLARE supportEmail EXTERNAL CHAR '';  
+
+-- Namespaces
+DECLARE soap11 NAMESPACE 'http://schemas.xmlsoap.org/soap/envelope/';
+DECLARE soap12 NAMESPACE 'http://www.w3.org/2003/05/soap-envelope';
+
+-- Cache (shared rows)
+DECLARE cache SHARED ROW;

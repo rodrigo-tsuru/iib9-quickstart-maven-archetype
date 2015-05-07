@@ -7,13 +7,19 @@
   <modules>
     <module name="Application Project" id="${rootArtifactId}-app" dir="__rootArtifactId__-app">
       <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                        <directory></directory>
+                        <includes>
+                                <include>**/*.esql</include>
+				<include>**/*.msgflow</include>
+                        </includes>
+                </fileSet>
                 <fileSet filtered="true" encoding="UTF-8">
                         <directory></directory>
                         <includes>
-                                <include>**/*</include>
+                                <include>**/.project</include>
                         </includes>
                 </fileSet>
-
       </fileSets>
     </module>
     <module name="Java Project" id="${rootArtifactId}-java" dir="__rootArtifactId__-java">
